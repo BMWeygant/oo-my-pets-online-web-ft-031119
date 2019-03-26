@@ -58,7 +58,7 @@ pets.each do |species, animals|
 animals.each do |pet|
 pet.mood = "nervous"
 end
-self.reset_all
+animals.reset_all
 end
 end
 
