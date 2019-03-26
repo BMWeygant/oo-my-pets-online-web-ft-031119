@@ -50,9 +50,9 @@ def feed_fish
 end
 
 def sell_pets
-pets.each do |pet_array, pet_name|
-pets[pet_array].each do |attributes|
-binding.pry
+pets.each do |pet_array, pet_list|
+pets[pet_array].each do |pet|
+pet.mood = "nervous"
 end
 end
 end
