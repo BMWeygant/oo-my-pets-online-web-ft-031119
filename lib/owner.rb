@@ -49,6 +49,10 @@ def feed_fish
   pets[:fishes].each {|fish| fish.mood = "happy"}
 end
 
+def self.reset_all
+  @@all.clear
+end
+
 def sell_pets
 pets.each do |pet_array, pet_list|
 pets[pet_array].each do |pet|
@@ -65,10 +69,6 @@ end
 
 def self.count
 @@all.count
-end
-
-def self.reset_all
-  @@all.clear
 end
 
 end
