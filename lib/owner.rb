@@ -50,7 +50,10 @@ def feed_fish
 end
 
 def sell_pets
+pets.each do |pet|
+  binding.pry
 
+end
 end
 
 
