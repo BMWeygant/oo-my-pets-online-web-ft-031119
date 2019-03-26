@@ -63,7 +63,7 @@ end
 end
 
 def list_pets
-
+puts "I have #{} fish, #{} dog(s), and #{} cat()."
 end
 
 def self.all
