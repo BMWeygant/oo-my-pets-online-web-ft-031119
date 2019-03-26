@@ -52,6 +52,7 @@ end
 def sell_pets
 pets.each do |pet_array, pet_list|
 pets[pet_array].each do |pet|
+  binding.pry
 pet.mood = "nervous"
 end
 end
