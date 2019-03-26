@@ -52,7 +52,7 @@ end
 def sell_pets
 pets.each do |pet_array, pet_name|
 pets[pet_array].each do |attributes, x|
-
+binding.pry
 end
 end
 end
