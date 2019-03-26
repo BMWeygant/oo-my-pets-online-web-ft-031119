@@ -59,7 +59,7 @@ pets[pet_array].each do |pet|
 pet.mood = "nervous"
 end
 end
-self.reset_all
+reset_all
 end
 
 
