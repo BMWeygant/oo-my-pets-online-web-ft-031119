@@ -51,8 +51,9 @@ end
 
 def sell_pets
 pets.each do |pet_array, pet_name|
-  binding.pry
+pets[pet_array].each do |attributes, x|
 
+end
 end
 end
 
